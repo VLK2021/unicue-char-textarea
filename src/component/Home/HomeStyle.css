@@ -1,0 +1,55 @@
+.home {
+    width: 100%;
+    min-height: 90vh;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+textarea {
+    padding: 0.5rem;
+}
+
+.custom-textarea {
+    width: 100%;
+}
+
+.custom-textarea {
+    font-size: 1rem;
+    font-weight: bold;
+    font-style: italic;
+    color: darkblue;
+}
+
+.btn-send {
+    width: 7rem;
+    background: green;
+    color: snow;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.7rem;
+}
+
+.btn-block-send {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+    top: -2rem;
+    right: -2rem;
+    cursor: pointer;
+}
+
+.result {
+    font-weight: bold;
+    text-align: center;
+    font-size: 6rem;
+    color: midnightblue;
+    text-shadow: 0.2rem 0.2rem 0.2rem lightblue;
+    margin: 2rem;
+
+}
